@@ -1,0 +1,14 @@
+{
+  "1": {
+    "py/object": "domain.Disciplina.Disciplina",
+    "id_disciplina": "1",
+    "nume": "mate",
+    "profesor": "bogdan"
+  },
+  "info": {
+    "py/object": "domain.Disciplina.Disciplina",
+    "id_disciplina": "info",
+    "nume": "matei",
+    "profesor": "errr"
+  }
+}

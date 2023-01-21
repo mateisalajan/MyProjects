@@ -1,0 +1,59 @@
+import os
+
+from Domain.Client import Client
+
+
+class ClientRepository:
+    def __init__(self, filename: str):
+        self.filename = filename
+        self.items = []
+
+        if not os.path.exists(self.filename):
+            open(self.filename, 'w').close()
+
+        with open(self.filename, 'r') as f:
+            for line in f:
+                self.items.append(self.from_string(line))
+
+    def save(self):
+        with open(self.filename, 'w') as f:
+            for item in self.items:
+                f.write(self.to_string(item))
+
+    def add(self, client: Client):
+        self.items.append(client)
+        self.save()
+
+    def remove(self, id_client: str):
+        for i, client in enumerate(self.items):
+            if client.id_client == id_client:
+                del self.items[i]
+                self.save()
+                return
+        raise ValueError("Item not found")
+
+    def find(self, **kwargs):
+        for item in self.items:
+            if all(getattr(item, key) == value for key, value in kwargs.items()):
+                return item
+        return None
+
+    def from_string(self, string: str):
+        """Convert a string representation of an item to an object"""
+
+        raise NotImplementedError
+
+    def to_string(self, item):
+        """Convert an item object to a string representation"""
+        raise NotImplementedError
+
+class ClientRepo(ClientRepository):
+    def from_string(self, string: str):
+        id_client, nume_client, CNP, *lista_filme_str = string.strip().split(',')
+        lista_filme = [Film(*lista_filme_str.split(':')) for lista_filme_str in lista_filme_str]
+        return Client(id_client, nume_client, CNP, lista_filme)
+
+    def to_string(self, client: Client):
+        lista_filme_str = ','.join([f"{film.id_film}:{film.titlu}:{film.gen}:{film.pret}"
+                                    for film in client.lista_filme])
+        return f"{client.id_client},{client.nume_client},{client.CNP}, {lista_filme_str}\n"

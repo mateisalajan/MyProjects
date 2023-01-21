@@ -1,0 +1,9 @@
+{
+  "4": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "4",
+    "nume_client": "george",
+    "CNP": "4",
+    "lista_filme": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "1": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "1",
+    "nume_client": "ion",
+    "CNP": "3",
+    "lista_filme": [
+      {
+        "py/object": "Domain.Film.Film",
+        "id_film": "1",
+        "titlu": "eeee",
+        "gen": "wwww",
+        "pret": 23.0
+      }
+    ]
+  },
+  "2": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "2",
+    "nume_client": "andrei",
+    "CNP": "2",
+    "lista_filme": []
+  },
+  "3": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "3",
+    "nume_client": "mihai",
+    "CNP": "1",
+    "lista_filme": []
+  },
+  "4": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "4",
+    "nume_client": "tudor",
+    "CNP": "4",
+    "lista_filme": []
+  },
+  "5": {
+    "py/object": "Domain.Client.Client",
+    "id_client": "5",
+    "nume_client": "borcea",
+    "CNP": "5",
+    "lista_filme": []
+  }
+}

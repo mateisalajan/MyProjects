@@ -1,0 +1,16 @@
+{
+  "1": {
+    "py/object": "Domain.Film.Film",
+    "id_film": "1",
+    "titlu": "eeee",
+    "gen": "wwww",
+    "pret": 23.0
+  },
+  "2": {
+    "py/object": "Domain.Film.Film",
+    "id_film": "2",
+    "titlu": "rrrr",
+    "gen": "yyyy",
+    "pret": 30.0
+  }
+}

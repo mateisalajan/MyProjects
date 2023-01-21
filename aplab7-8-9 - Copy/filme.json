@@ -1,0 +1,23 @@
+{
+  "1": {
+    "py/object": "Domain.Film.Film",
+    "id_film": "1",
+    "titlu": "zoro",
+    "gen": "actiune",
+    "pret": 24.0
+  },
+  "2": {
+    "py/object": "Domain.Film.Film",
+    "id_film": "2",
+    "titlu": "mask",
+    "gen": "gen4",
+    "pret": 21.0
+  },
+  "3": {
+    "py/object": "Domain.Film.Film",
+    "id_film": "3",
+    "titlu": "dune",
+    "gen": "gen6",
+    "pret": 35.0
+  }
+}

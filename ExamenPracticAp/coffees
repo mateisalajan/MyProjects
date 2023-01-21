@@ -1,0 +1,44 @@
+{
+  "1": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 1,
+    "nume": "Bucegi",
+    "tara_de_origine": "Grecia",
+    "pret": 39.4
+  },
+  "2": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 2,
+    "nume": "Eco",
+    "tara_de_origine": "Spania",
+    "pret": 40.6
+  },
+  "3": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 3,
+    "nume": "Nescafe",
+    "tara_de_origine": "Spania",
+    "pret": 23
+  },
+  "4": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 4,
+    "nume": "Borsec",
+    "tara_de_origine": "Grecia",
+    "pret": 34.2
+  },
+  "5": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 5,
+    "nume": "Apex",
+    "tara_de_origine": "Spania",
+    "pret": 12.7
+  },
+  "6": {
+    "py/object": "domain.Cafea.Cafea",
+    "id_cafea": 6,
+    "nume": "Sertt",
+    "tara_de_origine": "frfrf",
+    "pret": 45.0
+  }
+}
