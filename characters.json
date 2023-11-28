@@ -1,0 +1,37 @@
+{
+  "Andy": {
+    "py/object": "Characters.melee.MeleeCharacter",
+    "name": "Andy",
+    "hp": 150,
+    "damage": 70,
+    "inventory": {
+      "stick": 1,
+      "healing_potion": 3,
+      "sword": 1,
+      "rage_potions": 3
+    },
+    "extra_base_hp": 50,
+    "extra_base_dm": 50,
+    "extra_inventory": {
+      "sword": 1,
+      "rage_potions": 3
+    }
+  },
+  "Max": {
+    "py/object": "Characters.mage.MageCharacter",
+    "name": "Max",
+    "hp": 100,
+    "damage": 100,
+    "inventory": {
+      "stick": 1,
+      "healing_potion": 3,
+      "staff": 1,
+      "special_spell": 3
+    },
+    "extra_base_dm": 80,
+    "extra_inventory": {
+      "staff": 1,
+      "special_spell": 3
+    }
+  }
+}
